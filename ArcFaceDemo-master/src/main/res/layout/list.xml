@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人脸识别" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人脸检测" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LinearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人脸跟踪" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LinearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别检测" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/LinearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/fifth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年龄检测" />
+    </LinearLayout>
+</RelativeLayout>
